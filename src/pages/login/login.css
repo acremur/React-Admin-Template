@@ -1,0 +1,23 @@
+.login {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login > input {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.login > button {
+    padding: 10px;
+    width: 100px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
